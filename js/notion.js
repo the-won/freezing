@@ -1,7 +1,7 @@
 
 
 /**
-* @logs: 프리모드 스와이프 객체를 다른 함수에서 사용하기 위해 전역으로 설정
+* @logs: 스와이프 객체를 다른 함수에서 사용하기 위해 전역으로 설정
 */
 window.SwiperVar = {
 	instanceArray: [],
@@ -17,7 +17,7 @@ window.SwiperVar = {
 * @logs: 2020.01.31
 */
 
-function freeModeBannerSwiper() {
+function bModeBannerSwiper() {
 	var $swiper = $('.swiper-container');
 	var instance = null;
 	
@@ -78,7 +78,6 @@ function freeModeBannerSwiper() {
 		});
 
 	} catch (e) {
-		//console.log(e.message)
 		throw new Error(e.message);
 	}
 }
@@ -86,14 +85,7 @@ function freeModeBannerSwiper() {
 
 
 $(document).ready(function(){
-	freeModeBannerSwiper();
-	console.log(SwiperVar.instanceArray[0].activeIndex)
-	console.log(SwiperVar)
-	var deg = SwiperVar.instanceArray[0];
-	//deg.slideTo(2)
-	deg.on("slideChange", function(){
-		console.log('slideChange', this.previousIndex, '->', this.activeIndex);
-	})
+	bModeBannerSwiper();
 	
 })
 
