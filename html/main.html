@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Main | 울타리스쿨</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/plugin/swiper.min.js"></script>
+    <script src="../js/notion.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../js/plugin/swiper.min.css">
+</head>
+<body class="main">
+    <header>
+        <div class="container_header">
+            <button class="btn_hamburger"></button>
+            <h1><a href="#"><img src="../images/img_logo_01.png" alt="울타리스쿨"></a></h1>
+            <ul class="gnb cb">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">진로직업프로그램</a></li>
+                <li><a href="#">대학생멘토단</a></li>
+                <li><a href="#">학부모아카데미</a></li>
+                <li><a href="#">기타프로그램</a></li>
+            </ul>
+            <ul class="utility cb">
+                <li><a href="#" class="info">정보</a></li>
+                <li><a href="#" class="mypage">마이페이지</a></li>
+            </div>
+        </div>
+    </header>
+    <div class="key_visual slide">
+        <!--키비쥬얼 슬라이드-->
+        <div class="swiper-container visual-swiper">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="../images/img_temp_01.png" alt="">
+                </li>
+                <li class="swiper-slide"><img src="../images/img_temp_02.png" alt=""></li>
+                <li class="swiper-slide">3</li>
+            </ul>
+
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <style>
+             /* 키비쥬얼 슬라이드 */
+            .visual-swiper {width: 100%; height: 35vw; background-color: aquamarine;}
+            .visual-swiper .swiper-slide {position: relative;}
+            .visual-swiper .swiper-slide img {width: 100%; height: 35vw; object-fit: cover;}
+        </style>
+    </div>
+    <div class="container">
+        <section class="sec_recom">
+            <h2><span class="c_green">키워드</span> 추천강좌</h2>
+            <ul class="tab cb">
+                <li class="on"><button>전체보기</button></li>
+                <li><button>명사특강</button></li>
+                <li><button>교육이슈</button></li>
+                <li><button>인문학</button></li>
+                <li><button>여행</button></li>
+                <li><button>젠터</button></li>
+                <li><button>글쓰기</button></li>
+                <li><button>수업영상</button></li>
+                <li><button>생활지도</button></li>
+                <li><button>방송</button></li>
+                <li><button>안전</button></li>
+                <li><button>과학</button></li>
+                <li><button disabled>Coming soon!</button></li>
+                <li><button disabled>Coming soon!</button></li>
+                <li><button disabled>Coming soon!</button></li>
+                <li><button disabled>Coming soon!</button></li>
+            </ul>
+            <div class="slide">
+                <!--슬라이드-->
+                <div class="swiper-container keyword-swiper">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide">
+							<div class="bx-wrap">
+								<div class="bx">
+									1
+								</div>
+								<div class="bx">2</div>
+							</div>
+						</li>
+						<li class="swiper-slide">
+							<div class="bx-wrap">
+								<div class="bx">3</div>
+								<div class="bx">4</div>
+							</div>
+						</li>
+						<li class="swiper-slide">
+							<div class="bx-wrap">
+								<div class="bx">5</div>
+								<div class="bx">6</div>
+							</div>
+						</li>
+					</ul>
+
+					 <!-- Add Navigation -->
+					 <div class="swiper-button-prev"></div>
+					 <div class="swiper-button-next"></div>
+				</div>
+
+				<style>
+                     /* 키워드 추천강좌 슬라이드 */
+					.keyword-swiper {height: 30vw; margin-top: 30px; border: 1px solid #ddd;}
+					.keyword-swiper .bx-wrap {display: flex; height: 100%;}
+					.keyword-swiper .bx-wrap .bx {width: 50%; background-color: rgba(49, 46, 46, 0.3);}
+
+                    /* 이전, 다음 버튼 */
+                    .keyword-swiper .swiper-button-prev {left: 0}
+                    .keyword-swiper .swiper-button-next {right: 0}
+				</style>
+            </div>
+        </section>
+        <section class="sec_progr">
+            <h2><span class="c_green">울타리</span> 프로그램</h2>
+            <div class="slash_tab cb">
+                <ul>
+                    <li class="on"><button>전체</button></li>
+                    <li><button>진로직업프로그램</button></li>
+                    <li><button>대학생멘토단</button></li>
+                    <li><button>학부모아카데미</button></li>
+                    <li><button>기타교육프로그램</button></li>
+                </ul>
+            </div>
+            <!--전체-->
+            <div class="con_wrap">
+                <div class="new bg">
+                    <h3>신규 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>인기 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>관리자 추천<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>대학생 멘토단<a href="#" class="btn_viewmore">더보기</a></h3>                    
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!--//전체-->
+            <!--진로직업프로그램-->
+            <div class="con_wrap">
+                <div class="new bg">
+                    <h3>신규 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>인기 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>관리자 추천<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>대학생 멘토단<a href="#" class="btn_viewmore">더보기</a></h3>                    
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--//진로직업프로그램-->
+            <!--대학생멘토단-->
+            <div class="con_wrap">
+                <div class="new bg">
+                    <h3>신규 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>인기 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>관리자 추천<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>대학생 멘토단<a href="#" class="btn_viewmore">더보기</a></h3>                    
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--//대학생멘토단-->
+            <!--학부모아카데미-->
+            <div class="con_wrap">
+                <div class="new bg">
+                    <h3>신규 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>인기 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>관리자 추천<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>대학생 멘토단<a href="#" class="btn_viewmore">더보기</a></h3>                    
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--//학부모아카데미-->
+            <!--기타교육프로그램-->
+            <div class="con_wrap">
+                <div class="new bg">
+                    <h3>신규 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <div class="desc"><span class="tit">직업인특강</span><p>1:1 메칭 프로그램으로 만족도 증가</p><span class="d_under">view</span></div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>인기 프로그램<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>관리자 추천<a href="#" class="btn_viewmore">더보기</a></h3>
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>대학생 멘토단<a href="#" class="btn_viewmore">더보기</a></h3>                    
+                    <ul class="cb">
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">직업체험</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">기업가정신</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">동기부여</span>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="img" style="background-image:url('../images/img_temp_04.png')"></div>
+                            <span class="tit">의사소통능력 향상</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--//기타교육프로그램-->
+        </section>
+        <section class="sec_role bg">
+            <h2>내게 맞는 역할 지원</h2>
+            <p class="tit_desc">학생들의 진로 교육에 대한 고민해결에 울타리스쿨이 함께합니다.</p>
+            <ul class="con_wrap cb">
+                <li><a href="#">
+                    <p>학교 및 기관</p>
+                    <span>교육신청 →</span>
+                </a></li>
+                <li><a href="#">
+                    <p>강사</p>
+                    <span>강사지원 →</span>
+                </a></li>
+                <li><a href="#">
+                    <p>대학생 멘토</p>
+                    <span>멘토지원 →</span>
+                </a></li>
+            </ul>
+        </section>
+        <section class="sec_int">
+            <h2>회사소개</h2>
+            <iframe width="100%" height="675" src="https://www.youtube.com/embed/4yII54gtnuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="tit_desc">
+                <b>울타리스쿨은 창의적 체험, 진로교육, 자유학기제 전문 청소년 진로교육 전문기관입니다.</b>
+                사회의 모든 기관이 청소년들의 다양한 경험과 체험을 할 수 있는 공간이 되고,<br>
+                어른이 청소년들의 꿈 찾기를 돕는 멘토가 되는 울타리 지역공동체 시스템을 구축합니다.
+            </p>
+            <div class="video_wrap">
+                <span class="tit">현장동영상</span>
+                <div class="slide">
+                    <!--슬라이드-->
+					<div class="swiper-container clip-swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="bx"><a href="">1</a></div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="bx"><a href="">2</a></div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="bx"><a href="">3</a></div>	
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="bx"><a href="">4</a></div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="bx"><a href="">5</a></div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="bx"><a href="">6</a></div>
+                            </li>
+                        </ul>
+    
+                            <!-- Add Navigation -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+					
+	
+					<style>
+                        /* 현장동영상 슬라이드 */
+                        .main .sec_int .video_wrap {padding: 2.5vw 2vw;}
+						.clip-swiper {height: 20vw;}
+						.clip-swiper .swiper-slide {position: relative;}
+                        .clip-swiper .swiper-slide .bx {position: absolute; left: 50%; top: 50%; width: 70%; height: 70%; background: rgb(77, 76, 76, 0.7); transform: translate(-50%, -50%);}
+                        .clip-swiper .swiper-slide .bx a {position: relative; display: block; height: 60%; top: 20%; background-color: black}
+						/* 이전, 다음 버튼 */
+                        .clip-swiper .swiper-button-prev {left: 0}
+                        .clip-swiper .swiper-button-next {right: 0}
+					</style>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sec_sns bg">
+            <h2>울타리스쿨 SNS</h2>
+            <p class="tit_desc">울타리스쿨의 새로운 소식을 확인하세요!</p>
+            <div class="sns_wrap">
+                <button class="sns facebook"></button>
+                <button class="sns blog"></button>
+                <button class="sns instagram"></button>
+            </div>
+            <div class="con_wrap">
+                <div>facebook API</div>
+                <div>naver blog API</div>
+                <div>instagram API</div>
+            </div>
+        </section>
+        <section class="sec_info cb">
+            <div>
+                <h2>울타리소식<a href="#" class="btn_viewmore">더보기</a></h2>
+                <ul>
+                    <li><a href="#">
+                        <p>울타리스쿨 대표님의 시사메거진 기사</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                    <li><a href="#">
+                        <p>하남시연합진로박람회 개최예정(10/28)</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                    <li><a href="#">
+                        <p>가평교육지원청과 협업(가평진로박람회진행)</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                    <li><a href="#">
+                        <p>차의과학대학교와 협약: 이공계 여성인재 진출촉촉촉촉촉</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>문의하기<a href="#" class="btn_viewmore">더보기</a></h2>                
+                <ul>
+                    <li><a href="#">
+                        <p>3월 학습프로그램 문의드립니다</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                    <li><a href="#">
+                        <p>3월 학습프로그램 문의드립니다</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                    <li><a href="#">
+                        <p>3월 학습프로그램 문의드립니다</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                    <li><a href="#">
+                        <p>3월 학습프로그램 문의드립니다</p>
+                        <span class="date">2019.11.22</span>
+                    </a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="center_wrap">
+                    <h2>고객센터</h2>
+                    <p class="desc"><a href="tel:031-232-4997">031) 232- 4997~8</a><a href="tel:02-455-4997">02) 455-4997</a></p>
+                    <p class="noti">운영시간  09 : 00 ~ 18: 00<br>(주말 및 공휴일은 운영하지 않습니다.)</p>
+                </div>
+            </div>
+        </section>
+        <div class="floating_wrap"><button class="btn_top">Top</button></div>
+    </div> 
+    <footer>
+        <div class="container_footer">
+            <div class="footer_menu cb">
+                <ul class="info_wrap">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                </ul>
+                <ul class="sns_wrap">
+                    <li><a href="#" class="blog">naver blog</a></li>
+                    <li><a href="#" class="kakao">kakao story</a></li>
+                    <li><a href="#" class="facebook">facebook</a></li>
+                    <li><a href="#" class="tstory">tstory</a></li>
+                </ul>
+            </div>
+            <div class="footer_addr cb">
+                <div>
+                    <address>
+                        <span class="name">㈜울타리스쿨</span>
+                        대표 : 박기욱 / 사업자등록번호 135-86-03928<br>
+                        주소 : 경기도 용인시 풍덕천로 148번길 22 홍우빌딩 2층<br>
+                        T <a href="tel:031-232-4997">031 232 4997-8</a> / F 031 232 4999 / E <a href="mailto:ulsedu@ultarischool.com">ulsedu@ultarischool.com</a>
+                    </address>
+                </div>
+                <div>
+                    <address>
+                        <span class="name">울타리진로진학연구소</span>
+                        소장 : 이태경<br>
+                        주소 : 서울 강남구 대치동 890-5 / T <a href="tel:02-445-4997">02 445 4997</a><br>
+                        Copyright (주)울타리스쿨 All rights reserved.
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+<script>
+        $(document).ready(function() {
+            $('.btn_hamburger').click(function(){
+                $(this).closest('header').toggleClass('open');
+            }) 
+        });
+    </script>
+</html>
